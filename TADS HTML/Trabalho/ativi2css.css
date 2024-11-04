@@ -1,0 +1,69 @@
+p {
+    color: white;
+    font-size: 2rem;
+    background-color: black;
+    border-radius: 0.5rem;
+    height: 2.5rem;
+    padding-left: 0.8rem;
+}
+.escola{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
+}
+.imagem{
+    background-color:whitesmoke;
+}
+h1{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 33%; 
+    font-size: 10;
+    font-style:italic;
+    color:gray;
+}
+.texto{
+    text-align: justify;
+    text-justify: inter-word;
+}
+h2{
+    font-size: 2rem;
+    font-style:bold;
+    border-bottom: 0.8rem solid green;
+    border-radius:0.5rem;
+}
+ul{
+    list-style-type: circle solid;
+}
+.rodape:has(.t1,.t2,.t3){
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: flex-end;
+    row-gap:2rem;
+    border-top: 0.8rem solid green;
+    background-color: #4e4462;
+    width: 100%;
+    height:5rem;
+}
+.t1{
+    text-justify: inter-word;
+    color:white;
+    order:1;
+    font-style: italic;
+    font-size:1rem;
+}
+.t2{
+    text-justify: inter-word;
+    color:white;
+    order:2;
+    font-size:1rem;
+}
+.t3{
+    text-justify: inter-word;
+    color:white;
+    order:3;
+    font-size:1rem;
+}
